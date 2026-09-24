@@ -1,0 +1,483 @@
+customer_id,age,monthly_income_ghs,monthly_visits,annual_spend_ghs,segment,region,channel,satisfaction_score,returned_item,signup_date
+C0001,58.0,7843.27,8,5215.66,Home Office,Eastern,Online,2,No,2025-04-15
+C0002,55.0,4744.39,7,2840.07,Consumer,Eastern,Store,2,Yes,2026-07-29
+C0003,32.0,3589.95,1,1941.14,Corporate,Ashanti,Online,2,No,2025-12-15
+C0004,66.0,4720.39,4,2822.8,Consumer,Western,Partner,3,No,2025-09-28
+C0005,25.0,"<bound method Series.median of 0       7843.27
+1       4744.39
+2       3589.95
+3       4720.39
+4           NaN
+5       5440.28
+6       6226.43
+7        592.57
+8       9446.60
+9       7419.09
+10      4284.78
+11      3082.23
+12      5219.82
+13      6367.29
+14      7241.31
+15      5303.25
+16      2578.82
+17      2676.04
+18      7845.07
+19      6597.42
+20      5682.44
+21      2399.60
+22      4075.69
+23     12790.59
+24      8188.71
+25      4080.10
+26      1835.27
+27      6379.54
+28      6041.66
+29      4362.09
+30      2775.80
+31      6844.68
+32      5141.86
+33      5167.67
+34      9193.79
+35      7371.46
+36      8215.71
+37      1219.18
+38      8462.42
+39      6139.34
+40      3836.66
+41      9371.65
+42      4955.12
+43      7531.03
+44      4639.03
+45      3908.70
+46      6112.64
+47      6644.90
+48      6659.82
+49      2450.48
+50      5076.75
+51       811.17
+52      3754.15
+53      1865.39
+54      4827.74
+55      6035.59
+56      6238.06
+57      1788.96
+58      7069.34
+59      2604.79
+60      4119.71
+61      5195.79
+62      4078.77
+63       944.88
+64      2867.65
+65      6480.50
+66      7385.20
+67      2060.26
+68      7560.85
+69      4832.78
+70      7583.87
+71      2975.83
+72      3906.37
+73      4712.69
+74      8262.82
+75      5001.01
+76      3556.87
+77      3087.18
+78      4531.27
+79      3164.78
+80      4202.48
+81      5582.13
+82      4325.77
+83      2852.22
+84      5182.15
+85      7515.49
+86      6694.29
+87      6348.50
+88      3205.11
+89      3448.00
+90      7592.88
+91      2191.85
+92      3945.22
+93      4615.65
+94       887.07
+95      4599.89
+96      5365.12
+97      4212.71
+98      4724.13
+99      6013.53
+100     2131.64
+101    10101.28
+102     4652.19
+103     8936.40
+104     2956.31
+105     3781.98
+106     3744.79
+107     6201.86
+108     3728.96
+109     5099.04
+110      640.89
+111     6325.43
+112     6636.54
+113     1524.08
+114     4581.11
+115     6719.74
+116      870.68
+117     7195.05
+118     3632.25
+119     6483.32
+120     7809.81
+121     4619.00
+122     5641.32
+123     4871.86
+124     4679.07
+125     2974.03
+126     6190.23
+127     4279.31
+128    10091.59
+129     7988.53
+130     3624.93
+131     4897.60
+132     9437.80
+133     3520.65
+134     6800.54
+135     4689.17
+136     4881.48
+137     6249.75
+138     2809.48
+139     6980.88
+140     6123.43
+141     3115.89
+142     7091.51
+143     5759.31
+144     7606.00
+145     4651.65
+146     4027.42
+147     1563.14
+148     6696.00
+149     3977.83
+150     4733.62
+151     7902.24
+152     2542.28
+153     3334.52
+154     5742.21
+155     5705.09
+156     4440.36
+157    10928.26
+158     5562.82
+159     6221.37
+160     6976.07
+161     7234.53
+162     7262.22
+163     6548.14
+164     1931.32
+165     3644.26
+166     2513.60
+167     3230.23
+168     3285.41
+169     5706.24
+170     6313.04
+171     8150.27
+172     7861.35
+173     5108.55
+174     7905.85
+175     9292.98
+176     3904.15
+177     5557.48
+178     4411.56
+179     6529.63
+180     4162.67
+181     4352.77
+182     4057.14
+183     7832.40
+184     4701.50
+185     4379.39
+186     4783.59
+187     4749.90
+188     4674.75
+189     5867.04
+190     4959.95
+191     3775.04
+192     4209.58
+193     6636.63
+194     3396.13
+195     4792.57
+196     6296.74
+197     6108.42
+198     9388.99
+199     2731.22
+200     3214.73
+201     3122.18
+202     6883.10
+203     4703.21
+204     6160.12
+205     2133.00
+206     3176.47
+207     5760.69
+208     2804.83
+209     7375.37
+210     3259.70
+211     3113.47
+212     5003.11
+213     6890.24
+214     4909.30
+215    10152.78
+216     3839.78
+217     4840.70
+218     7969.96
+219      327.81
+220     2820.34
+221     6917.67
+222     2908.02
+223     5327.06
+224     8204.70
+225     3785.07
+226     4502.27
+227     4636.49
+228     5682.49
+229     9370.80
+230     4993.29
+231     4098.86
+232     2071.56
+233     2525.11
+234     5300.10
+235     2637.48
+236     4967.61
+237     4487.97
+238     5933.40
+239     5263.52
+240     2131.64
+241    10101.28
+Name: monthly_income_ghs, dtype: float64>",10,3942.83,Consumer,Greater Accra,Online,5,No,2026-08-15
+C0006,60.0,5440.28,3,3480.83,Corporate,Western,Partner,2,Yes,2026-01-25
+C0007,41.0,6226.43,9,4326.27,Home Office,Ashanti,Online,1,No,2026-07-01
+C0008,47.0,592.57,8,2917.42,Consumer,Central,Store,3,Yes,2025-08-23
+C0009,35.0,9446.6,11,6034.39,Home Office,Western,Online,2,No,2026-02-10
+C0010,34.0,7419.09,9,5311.35,Corporate,Central,Online,5,No,2026-08-21
+C0011,26.0,4284.78,2,2073.34,Home Office,Western,Partner,1,No,2025-06-13
+C0012,22.0,3082.23,15,3509.12,Consumer,Greater Accra,Partner,5,No,2026-07-21
+C0013,52.0,5219.82,11,1658.58,Consumer,Western,Online,1,No,2026-03-22
+C0014,64.0,6367.29,6,2852.85,Home Office,Eastern,Partner,5,Yes,2025-11-02
+C0015,30.0,7241.31,1,4663.5,Consumer,Greater Accra,Store,5,No,2026-05-16
+C0016,41.0,5303.25,3,3345.2,Home Office,Ashanti,Online,1,No,2025-03-12
+C0017,60.0,2578.82,9,2111.12,Home Office,Ashanti,Partner,5,No,2025-08-05
+C0018,37.0,2676.04,12,3064.87,Consumer,Ashanti,Online,4,No,2025-05-04
+C0019,39.0,7845.07,8,4369.35,Consumer,Greater Accra,Online,1,Yes,2025-03-02
+C0020,39.0,6597.42,16,4630.48,Home Office,Western,Online,2,No,2026-08-08
+C0021,48.0,5682.44,4,2319.49,Corporate,Western,Partner,4,No,2026-03-10
+C0022,21.0,2399.6,4,25.0,Consumer,Ashanti,Online,1,No,2025-12-14
+C0023,30.0,4075.69,6,2226.05,Consumer,Western,Partner,3,No,2025-09-13
+C0024,24.0,12790.59,1,6970.54,Corporate,Western,Store,1,No,2025-06-20
+C0025,31.0,8188.71,6,2654.53,Corporate,Western,Store,4,Yes,2026-02-04
+C0026,45.0,4080.1,16,1743.44,Consumer,Greater Accra,Partner,2,No,2025-10-31
+C0027,65.0,1835.27,2,582.59,Home Office,Ashanti,Online,1,No,2026-05-30
+C0028,50.0,6379.54,3,3419.63,Home Office,Ashanti,Partner,2,No,2025-05-03
+C0029,56.0,6041.66,11,3750.85,Consumer,Central,Store,3,No,2025-11-18
+C0030,26.0,4362.09,11,2190.76,Home Office,Eastern,Online,1,Yes,2026-04-15
+C0031,22.0,2775.8,5,1409.85,Corporate, Ashanti ,Online,3,Yes,2025-09-08
+C0032,46.0,6844.68,1,1884.08,Consumer,Central,Online,5,No,2025-04-17
+C0033,24.0,5141.86,10,2612.24,Consumer,Central,Partner,5,No,2025-12-18
+C0034,49.0,5167.67,2,4571.4,Consumer,Greater Accra,Store,1,No,2025-10-11
+C0035,67.0,9193.79,6,6591.13,Consumer,Greater Accra,Online,4,No,2026-07-29
+C0036,62.0,7371.46,12,3659.86,Consumer,Greater Accra,Store,5,No,2026-03-17
+C0037,41.0,8215.71,2,2862.48,Home Office,Greater Accra,Store,3,No,2025-09-13
+C0038,67.0,1219.18,5,262.15,Corporate,Greater Accra,Online,2,No,2025-07-01
+C0039,65.0,8462.42,14,4240.1,Home Office,Greater Accra,Store,2,No,2025-06-13
+C0040,20.0,6139.34,15,3514.69,Consumer,Greater Accra,Partner,3,No,2025-08-22
+C0041,30.0,3836.66,3,2438.74,Corporate,Eastern,Store,3,No,2026-06-06
+C0042,19.0,9371.65,6,6398.22,Consumer,greater accra,Store,5,No,2025-02-09
+C0043,40.0,4955.12,4,1753.02,Consumer,Western,Online,4,No,2025-09-18
+C0044,51.0,7531.03,7,3451.45,Home Office,Central,Partner,3,No,2025-03-13
+C0045,38.0,4639.03,10,2518.22,Corporate,Western,Partner,5,No,2026-02-23
+C0046,36.0,3908.7,13,2656.04,Home Office,Greater Accra,Store,2,No,2026-02-20
+C0047,36.0,6112.64,11,5301.37,Home Office,Ashanti,Partner,4,No,2026-03-29
+C0048,48.0,6644.9,6,1181.75,Home Office,Eastern,Store,1,No,2026-06-12
+C0049,23.0,6659.82,10,2406.65,Consumer,Greater Accra,Online,2,No,2025-05-31
+C0050,48.0,2450.48,15,1331.85,Corporate,Western,Online,4,No,2026-01-29
+C0051,27.0,5076.75,4,2541.31,Home Office,Eastern,Store,4,No,2025-06-30
+C0052,21.0,811.17,4,25.0,Home Office,Eastern,Partner,4,No,2026-04-21
+C0053,-3.0,3754.15,15,4417.9,Corporate,Ashanti,Partner,5,No,2026-07-16
+C0054,48.0,1865.39,9,2093.84,Corporate,Western,Online,5,No,2025-09-02
+C0055,63.0,4827.74,11,3845.01,Consumer,Ashanti,Store,5,Yes,2025-05-22
+C0056,62.0,6035.59,14,4446.06,Corporate,Western,Online,4,No,2026-07-10
+C0057,31.0,6238.06,1,2073.51,Consumer,Central,Store,5,No,2026-05-04
+C0058,66.0,1788.96,14,3271.8,Consumer,Central,Store,5,No,2026-05-15
+C0059,49.0,7069.34,13,4442.16,Home Office,Eastern,Online,2,No,2025-05-11
+C0060,43.0,2604.79,3,662.36,Consumer,Greater Accra,Store,4,No,2026-04-18
+C0061,42.0,4119.71,11,3713.94,Corporate,Greater Accra,Store,4,No,2026-03-08
+C0062,19.0,5195.79,12,3047.38,Consumer,Ashanti,Online,2,Yes,2025-02-11
+C0063,19.0,4078.77,16,2711.06,Home Office,Central,Store,1,No,2026-04-22
+C0064,28.0,944.88,4,99999.0,Home Office,Greater Accra,Store,2,No,2025-04-21
+C0065,54.0,2867.65,13,246.91,Consumer,Central,Partner,2,Yes,2025-09-06
+C0066,56.0,6480.5,2,1493.82,Consumer,Eastern,Partner,3,No,2026-01-15
+C0067,39.0,7385.2,16,4762.09,Home Office,Western,Partner,1,No,2026-01-06
+C0068,27.0,2060.26,9,2301.61,Corporate,Eastern,Store,5,No,2026-04-22
+C0069,38.0,7560.85,3,2220.19,Corporate,Eastern,Partner,3,No,2025-09-07
+C0070,60.0,4832.78,11,3267.75,Corporate,Central,Store,2,No,2025-08-06
+C0071,35.0,7583.87,9,3169.11,Consumer,Greater Accra,Online,5,Yes,2026-06-14
+C0072,64.0,2975.83,8,2689.8,Consumer,Greater Accra,Store,4,No,2026-04-04
+C0073,32.0,3906.37,12,3178.8,Home Office,Eastern,Store,4,No,2026-03-12
+C0074,40.0,4712.69,9,2163.41,Corporate,Greater Accra,Partner,2,Yes,2025-07-17
+C0075,52.0,8262.82,7,3871.5,Home Office,Eastern,Partner,9,No,2025-10-11
+C0076,56.0,5001.01,7,3273.39,Consumer,Central,Online,3,No,2026-01-05
+C0077,63.0,3556.87,2,1608.68,Home Office,Western,Online,5,No,2025-05-10
+C0078,18.0,3087.18,15,2184.28,Corporate,Western,Online,3,No,2025-02-22
+C0079,22.0,4531.27,2,2426.82,Corporate,Greater Accra,Online,2,No,2026-07-31
+C0080,25.0,3164.78,8,1752.46,Corporate,Central,Partner,5,No,2026-04-07
+C0081,45.0,4202.48,4,3475.2,Home Office,Greater Accra,Online,2,No,2025-09-28
+C0082,33.0,5582.13,1,2930.07,Corporate,Greater Accra,Online,4,No,2026-04-27
+C0083,36.0,4325.77,15,1795.12,Home Office,Eastern,Partner,1,No,2025-09-28
+C0084,30.0,2852.22,5,2248.49,Consumer,Ashanti,Store,3,No,2025-03-15
+C0085,56.0,5182.15,10,1949.09,Home Office,Central,Partner,4,Yes,2026-04-25
+C0086,43.0,7515.49,16,4347.49,Corporate,Central,Partner,4,Yes,2099-01-01
+C0087,34.0,6694.29,1,3208.27,Corporate,Eastern,Partner,3,Yes,2025-06-29
+C0088,46.0,6348.5,14,3744.27,Corporate,Western,Store,4,Yes,2026-04-27
+C0089,38.0,3205.11,11,732.48,Home Office,Western,Partner,4,No,2025-10-23
+C0090,20.0,3448.0,11,2717.8,Consumer,Eastern,Store,1,No,2026-06-11
+C0091,44.0,7592.88,16,5160.41,Corporate,Eastern,Online,4,Yes,2025-07-28
+C0092,36.0,2191.85,4,1883.84,Corporate,Eastern,Online,1,No,2025-06-12
+C0093,53.0,3945.22,4,2485.72,Corporate,Central,Partner,4,Yes,2025-06-07
+C0094,63.0,4615.65,16,5220.12,Consumer,Western,Online,2,No,2026-07-19
+C0095,56.0,887.07,3,553.07,Home Office,Central,Online,3,No,2025-12-15
+C0096,36.0,4599.89,16,1639.46,Corporate,Central,Store,2,No,2026-07-06
+C0097,53.0,5365.12,11,2427.8,Corporate,Ashanti,Store,2,No,2026-08-09
+C0098,20.0,4212.71,13,3978.8,Consumer,Ashanti,Partner,4,No,2026-05-23
+C0099,55.0,4724.13,15,3781.07,Home Office,Ashanti,Store,1,No,2025-01-16
+C0100,59.0,6013.53,9,3400.78,Corporate,Eastern,Store,3,No,2025-03-24
+C0101,38.0,2131.64,16,899.43,Consumer,Central,Online,5,Yes,2025-03-12
+C0102,65.0,10101.28,4,6300.11,Consumer,Greater Accra,Store,4,No,2025-11-03
+C0103,21.0,4652.19,5,3405.33,Home Office,Ashanti,Online,2,No,2026-08-03
+C0104,29.0,8936.4,8,5616.4,Corporate,Central,Store,4,No,2025-08-26
+C0105,34.0,2956.31,15,842.86,Corporate,Central,Partner,3,No,2025-03-17
+C0106,37.0,3781.98,9,1701.91,Corporate,Western,Online,4,No,2025-07-23
+C0107,33.0,3744.79,10,3142.81,Corporate,Greater Accra,Partner,3,Yes,2026-02-10
+C0108,61.0,6201.86,16,1629.95,Consumer,Ashanti,Partner,3,No,2025-12-27
+C0109,34.0,3728.96,5,738.9,Corporate,Greater Accra,Partner,1,Yes,2025-11-13
+C0110,41.0,5099.04,10,2734.19,Consumer,Ashanti,Partner,3,No,2025-06-29
+C0111,41.0,640.89,6,393.51,Home Office,Central,Online,3,No,2025-10-30
+C0112,47.0,6325.43,8,3405.54,Corporate,Greater Accra,Store,4,No,2025-04-03
+C0113,52.0,6636.54,9,4389.88,Consumer,Ashanti,Store,5,No,2026-01-16
+C0114,19.0,1524.08,11,68.14,Home Office,Western,Partner,5,No,2025-03-06
+C0115,37.0,4581.11,2,1849.99,Consumer,Greater Accra,Online,1,No,2026-05-20
+C0116,52.0,6719.74,14,5000.29,Home Office,Greater Accra,Store,5,No,2026-03-01
+C0117,57.0,870.68,2,1837.48,Corporate,Ashanti,Store,3,No,2026-03-31
+C0118,24.0,7195.05,12,4149.1,Consumer,Greater Accra,Store,1,No,2025-10-10
+C0119,23.0,3632.25,1,557.77,Consumer,Eastern,Online,1,No,2025-09-07
+C0120,22.0,6483.32,7,2453.61,Home Office,Greater Accra,Store,2,No,2025-06-01
+C0121,27.0,7809.81,6,3931.7,Consumer,Central,Online,1,Yes,2025-05-15
+C0122,55.0,4619.0,2,2774.38,Consumer,Greater Accra,Store,2,No,2026-06-23
+C0123,46.0,5641.32,4,1756.23,Home Office,Eastern,Store,4,No,2025-02-14
+C0124,47.0,4871.86,16,3365.03,Corporate,Western,Online,4,No,2025-04-21
+C0125,23.0,4679.07,5,3014.6,Home Office,Eastern,Store,3,No,2026-01-26
+C0126,47.0,2974.03,4,1643.18,Corporate,Ashanti,Store,5,No,2026-03-17
+C0127,39.0,6190.23,4,2278.52,Home Office,Central,Store,3,No,2025-11-17
+C0128,27.0,4279.31,3,1187.17,Consumer,Central,Online,1,Yes,2026-03-19
+C0129,53.0,10091.59,11,6352.04,Home Office,Western,Partner,1,No,2025-12-29
+C0130,21.0,7988.53,12,4361.02,Home Office,Western,Online,1,No,2025-06-08
+C0131,24.0,3624.93,4,2950.46,Home Office,Eastern,Partner,3,No,2026-03-16
+C0132,61.0,4897.6,9,2797.73,Home Office,Central,Store,1,No,2025-10-07
+C0133,40.0,9437.8,13,5425.59,Consumer,Eastern,Online,1,No,2025-02-01
+C0134,42.0,3520.65,12,3022.99,Home Office,Greater Accra,Online,3,No,2026-08-05
+C0135,27.0,6800.54,3,4416.15,Corporate,Eastern,Store,3,No,2026-03-11
+C0136,44.0,4689.17,4,4026.48,Corporate,Eastern,Store,3,No,2025-04-24
+C0137,51.0,4881.48,13,3050.4,Consumer,Central,Online,5,Yes,2025-01-08
+C0138,67.0,6249.75,11,4301.54,Home Office,Western,Online,1,Yes,2026-05-25
+C0139,26.0,2809.48,12,3297.14,Corporate,Greater Accra,Store,1,No,2025-02-13
+C0140,22.0,6980.88,13,3298.42,Corporate,Greater Accra,Store,4,No,2025-04-28
+C0141,28.0,6123.43,12,2525.3,Consumer,Western,Partner,1,No,2025-04-19
+C0142,43.0,3115.89,10,2109.12,Consumer,Greater Accra,Partner,3,No,2025-12-08
+C0143,58.0,7091.51,12,4956.31,Consumer,Ashanti,Store,3,No,2025-08-30
+C0144,30.0,5759.31,3,3331.9,Home Office,Eastern,Store,2,No,2026-04-21
+C0145,61.0,7606.0,11,3795.81,Consumer,Western,Store,3,No,2026-03-27
+C0146,58.0,4651.65,2,2983.04,Corporate,Western,Online,3,Yes,2025-11-14
+C0147,21.0,4027.42,3,2641.27,Home Office,Eastern,Partner,5,No,2026-04-19
+C0148,20.0,1563.14,7,1836.03,Consumer,Greater Accra,Store,3,No,2026-05-29
+C0149,24.0,6696.0,3,1588.78,Consumer,Western,Store,5,No,2025-02-10
+C0150,51.0,3977.83,12,2730.46,Corporate,Eastern,Online,3,No,2026-02-23
+C0151,58.0,4733.62,4,2189.84,Corporate,Eastern,Online,5,No,2025-10-18
+C0152,39.0,7902.24,12,5263.15,Home Office,Greater Accra,Store,3,No,2025-05-13
+C0153,53.0,2542.28,5,2746.22,Home Office,Central,Online,5,Yes,2026-03-10
+C0154,41.0,3334.52,11,4612.19,Consumer,Ashanti,Online,4,No,2025-08-20
+C0155,36.0,5742.21,2,2390.26,Consumer,Ashanti,Online,3,No,2026-01-21
+C0156,62.0,5705.09,6,1363.71,Corporate,Ashanti,Store,4,Yes,2026-02-25
+C0157,57.0,4440.36,15,4813.82,Corporate,Ashanti,Store,2,No,2025-11-13
+C0158,61.0,10928.26,15,5298.76,Home Office,Western,Online,3,No,2026-05-30
+C0159,30.0,5562.82,9,2776.4,Home Office,Greater Accra,Partner,1,No,2026-01-16
+C0160,51.0,6221.37,6,2683.36,Consumer,Western,Online,3,No,2026-06-10
+C0161,32.0,6976.07,1,1420.75,Home Office,Central,Online,4,Yes,2026-02-10
+C0162,42.0,7234.53,1,3308.87,Consumer,Ashanti,Online,3,Yes,2025-12-10
+C0163,36.0,7262.22,5,3160.07,Consumer,Greater Accra,Store,4,No,2025-01-06
+C0164,31.0,6548.14,14,3104.88,Corporate,Greater Accra,Online,1,No,2025-09-01
+C0165,33.0,1931.32,15,2959.12,Home Office,Eastern,Online,1,Yes,2026-05-27
+C0166,58.0,3644.26,5,1996.71,Home Office,Central,Online,3,No,2025-01-02
+C0167,54.0,2513.6,3,2088.77,Home Office,Eastern,Partner,5,No,2025-03-11
+C0168,50.0,3230.23,16,2498.15,Corporate,Greater Accra,Store,1,No,2026-01-18
+C0169,22.0,3285.41,4,3096.3,Consumer,Central,Partner,5,No,2025-05-17
+C0170,39.0,5706.24,15,3299.69,Consumer,Western,Online,4,No,2025-05-19
+C0171,36.0,6313.04,2,4614.92,Corporate,Eastern,Store,3,No,2026-06-12
+C0172,34.0,8150.27,10,4830.25,Corporate,Greater Accra,Store,3,Yes,2025-12-06
+C0173,45.0,7861.35,13,3640.06,Home Office,Western,Store,3,No,2026-05-24
+C0174,51.0,5108.55,14,3881.18,Home Office,Central,Store,1,No,2025-07-04
+C0175,24.0,7905.85,10,5081.26,Home Office,Western,Store,4,No,2025-06-20
+C0176,46.0,9292.98,12,5706.57,Home Office,Greater Accra,Online,5,No,2025-10-09
+C0177,60.0,3904.15,6,1580.38,Consumer,Ashanti,Online,1,No,2026-03-25
+C0178,33.0,5557.48,13,2712.93,Home Office,Western,Store,5,Yes,2025-06-07
+C0179,41.0,4411.56,5,2541.3,Corporate,Central,Online,5,No,2026-02-12
+C0180,25.0,6529.63,13,4142.14,Corporate,Western,Online,5,Yes,2025-09-26
+C0181,57.0,4162.67,16,5297.42,Consumer,Western,Online,2,Yes,2025-05-19
+C0182,63.0,4352.77,11,3031.43,Home Office,Central,Store,3,Yes,2026-07-18
+C0183,28.0,4057.14,6,222.67,Consumer,Ashanti,Online,3,No,2025-05-05
+C0184,49.0,7832.4,12,4743.05,Consumer,Central,Store,4,No,2025-03-30
+C0185,63.0,4701.5,14,2167.47,Corporate,Greater Accra,Store,5,Yes,2025-05-09
+C0186,47.0,4379.39,6,1690.42,Consumer,Greater Accra,Partner,2,No,2026-05-30
+C0187,27.0,4783.59,8,3365.02,Corporate,Ashanti,Partner,3,No,2025-03-22
+C0188,53.0,4749.9,3,3707.39,Consumer,Ashanti,Partner,5,No,2026-08-18
+C0189,57.0,4674.75,2,1000.54,Home Office,Eastern,Store,1,Yes,2025-02-16
+C0190,59.0,5867.04,1,3925.71,Corporate,Ashanti,Partner,4,No,2025-11-06
+C0191,43.0,4959.95,2,2755.5,Corporate,Western,Online,2,No,2026-03-02
+C0192,39.0,3775.04,11,2122.89,Corporate,Eastern,Partner,3,No,2025-05-14
+C0193,24.0,4209.58,9,3625.35,Consumer,Greater Accra,Store,4,No,2025-05-25
+C0194,42.0,6636.63,6,2751.46,Consumer,Western,Partner,3,No,2025-07-14
+C0195,47.0,3396.13,1,1619.62,Corporate,Ashanti,Online,1,No,2026-06-02
+C0196,55.0,4792.57,16,3760.87,Home Office,Greater Accra,Online,5,No,2025-10-20
+C0197,45.0,6296.74,12,4408.76,Corporate,Greater Accra,Partner,4,No,2025-02-16
+C0198,53.0,6108.42,3,4137.54,Corporate,Eastern,Partner,4,No,2026-07-18
+C0199,57.0,9388.99,13,7083.13,Corporate,Ashanti,Online,3,No,2026-07-26
+C0200,56.0,2731.22,2,1334.96,Corporate,Eastern,Store,1,No,2025-12-08
+C0201,27.0,3214.73,11,1673.53,Corporate,Eastern,Partner,5,No,2025-06-16
+C0202,37.0,3122.18,16,2137.13,Consumer,Central,Store,5,No,2026-05-02
+C0203,61.0,6883.1,10,4574.1,Home Office,Eastern,Partner,1,No,2025-09-29
+C0204,32.0,4703.21,6,1389.3,Home Office,Ashanti,Online,5,No,2025-06-01
+C0205,54.0,6160.12,1,2710.49,Consumer,Western,Partner,4,No,2026-03-05
+C0206,31.0,2133.0,16,3195.75,Consumer,Eastern,Store,1,No,2026-06-16
+C0207,60.0,3176.47,6,2064.59,Corporate,Central,Partner,4,No,2026-07-14
+C0208,48.0,5760.69,10,4110.57,Home Office,Ashanti,Partner,2,No,2025-10-23
+C0209,63.0,2804.83,9,2102.16,Home Office,Eastern,Store,3,Yes,2026-08-11
+C0210,43.0,7375.37,5,1596.03,Home Office,Greater Accra,Store,3,Yes,2025-10-22
+C0211,46.0,3259.7,7,753.17,Home Office,Central,Online,2,No,2026-07-30
+C0212,24.0,3113.47,8,1241.73,Consumer,Greater Accra,Store,1,No,2025-08-27
+C0213,39.0,5003.11,5,2248.22,Home Office,Western,Store,1,No,2026-02-21
+C0214,59.0,6890.24,11,6361.82,Home Office,Eastern,Online,3,Yes,2025-04-02
+C0215,52.0,4909.3,2,532.29,Consumer,Western,Store,2,No,2025-06-30
+C0216,29.0,10152.78,10,4475.95,Home Office,Eastern,Online,1,Yes,2025-11-02
+C0217,39.0,3839.78,16,5876.82,Consumer,Greater Accra,Store,2,No,2025-10-07
+C0218,28.0,4840.7,6,1324.61,Home Office,Ashanti,Online,1,No,2025-10-30
+C0219,57.0,7969.96,14,3184.83,Corporate,Greater Accra,Online,5,No,2025-03-30
+C0220,26.0,327.81,1,546.85,Corporate,Central,Store,3,No,2025-08-30
+C0221,37.0,2820.34,9,1420.47,Home Office,Greater Accra,Store,3,No,2025-03-05
+C0222,37.0,6917.67,10,5182.57,Home Office,Ashanti,Online,1,No,2026-01-12
+C0223,26.0,2908.02,12,2471.64,Home Office,Ashanti,Online,4,No,2026-07-05
+C0224,61.0,5327.06,3,722.58,Home Office,Central,Online,5,No,2026-06-25
+C0225,54.0,8204.7,7,5443.75,Corporate,Eastern,Store,5,No,2025-06-18
+C0226,25.0,3785.07,16,1696.45,Corporate,Ashanti,Partner,1,No,2025-02-26
+C0227,44.0,4502.27,15,3388.87,Corporate,Greater Accra,Partner,3,Yes,2026-02-10
+C0228,31.0,4636.49,12,2969.78,Corporate,Greater Accra,Store,1,Yes,2025-03-12
+C0229,44.0,5682.49,14,4210.83,Corporate,Western,Online,3,No,2026-04-05
+C0230,61.0,9370.8,5,4209.45,Home Office,Western,Partner,3,Yes,2025-07-02
+C0231,26.0,4993.29,1,1664.17,Home Office,Eastern,Store,1,No,2026-04-20
+C0232,52.0,4098.86,15,3591.55,Consumer,Greater Accra,Online,3,No,2025-10-10
+C0233,60.0,2071.56,1,1804.06,Consumer,Eastern,Online,2,No,2025-03-10
+C0234,46.0,2525.11,2,452.61,Corporate,Ashanti,Partner,2,Yes,2026-02-16
+C0235,31.0,5300.1,5,1167.2,Home Office,Eastern,Store,5,No,2025-08-28
+C0236,54.0,2637.48,11,1302.59,Home Office,Eastern,Online,2,No,2025-05-27
+C0237,44.0,4967.61,6,3065.54,Corporate,Western,Partner,4,No,2025-02-18
+C0238,38.0,4487.97,10,1951.27,Corporate,Ashanti,Online,4,No,2026-07-05
+C0239,37.0,5933.4,15,3531.13,Home Office,Eastern,Online,1,No,2026-03-03
+C0240,42.0,5263.52,3,3263.5,Home Office,Ashanti,Online,4,No,2025-04-05
